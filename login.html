@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="main-bg">
+    <!-- Header Start -->
+            <div class="header" style="background-color: #ebebe0">
+                <div class="container-fluid">
+                    <div class="header-top row align-items-center">
+                        <div class="col-lg-3">
+                            <div class="brand">
+                               <a href="index.html">
+                                   <img src="images/logo.png">
+                                </a>
+                                 <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalLong">
+         <img src="images/mobie.png" height="50px" style="border-radius: 25px" >
+        </button>
+
+        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalLong" >
+         <a href="index.html"><img src="images/pc1.png" height="50px" style="border-radius: 25px"></a>
+        </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <div class="content">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <span class="d-block text-center my-4 text-muted"> or sign in with</span>
+            <div class="social-login text-center">
+              <a href="#" class="facebook btn btn-block">
+              <span class="icon-twitter mr-3"><img src="images/fa.png" style="width: 20px;background-color: #fff"> sign up with facebook</span>
+              </a>
+              <a href="#" class="twitter btn btn-block">
+                <span class="icon-twitter mr-3"><img src="images/goo.png"style="width: 20px;background-color: #fff"> sign up with google</span> 
+              </a>
+            </div>
+
+          </div>
+          <div class="col-md-2 text-center">
+            &mdash; or &mdash;
+          </div>
+          <div class="col-md-5 contents">
+            <div class="form-block">
+            <div class="mb-4">
+                  <h3>Sign In</h3>
+                </div>
+                <form action="#" method="post">
+                  <div class="form-group first">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username">
+
+                  </div>
+                  <div class="form-group last mb-4">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password">
+                    
+                  </div>
+                  
+                  <div class="d-flex mb-5 align-items-center">
+                    <label class="control control--checkbox mb-0"><span class="caption">Remember me</span>
+                      <input type="checkbox" checked="checked"/>
+                      <div class="control__indicator"></div>
+                    </label>
+                    <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span> 
+                  </div>
+
+                  <input type="submit" value="Log In" class="btn btn-pill text-white btn-block btn-primary">
+
+                  
+                  
+                  
+                </form>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+             <!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+  <div class="modal-dialog" role="document"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">
+            view on screen mobile
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body" style="height: 800px; background-color: #d6d6c2 ">
+       <div style="height: 480px;max-width:320px; margin: auto">
+    <div style="height: 50px; width: 305px; background-color: #fff; border-radius: 25px 25px 0px 0px">
+        <div class="text-center"><p style="font-size: 30px">-</p></div>
+    </div>
+    <iframe src="#" data-hooks="mobile-iframe" style="height: 480px"></iframe>
+    <div style="height: 50px; width: 305px; background-color: #fff; border-radius: 0px 0px 25px 25px"></div>
+    </div>
+     <div class="modal-footer" class="col-sm-2">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
